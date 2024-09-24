@@ -1,0 +1,69 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 60% 10%;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    object-fit: contain;
+    max-height: 400px; 
+    width: 100%; 
+}
+
+.carousel{
+    background-color: black;
+}
+
+/* Increase the size of the card */
+.card {
+    width: 22rem; /* Adjust the width */
+    height: 35rem; /* Adjust the height */
+}
+
+/* Increase the size of the card title */
+.card h5 {
+    margin-top: 20px;
+    font-size: 30px; /* Increase font size */
+    margin-bottom: 20%; /* Reduce bottom margin */
+}
+
+/* Increase the size of the button */
+.btn {
+    font-size: 35px; /* Increase font size */
+    padding: 16px 25px; /* Increase padding for the button */
+    border-radius: 12px;
+}
+
+/* Center and align the card container with a bigger size */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px; /* Add space between cards */
+}
+
+
+.footer{
+    
+    display: flex;
+    align-items: end;
+}
+.footer p {
+    text-align: center;
+    width: 100%;
+    background-color: #949494;
+    font-size: 30px;
+    margin-bottom: 0;
+   
+}
